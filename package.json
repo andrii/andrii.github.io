@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages --no-jekyll -d out"
+  },
+  "dependencies": {
+    "next": "^15.1.5",
+    "nextra": "^4.0.4",
+    "nextra-theme-docs": "^4.0.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
